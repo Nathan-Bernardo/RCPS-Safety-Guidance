@@ -27,9 +27,10 @@ https://www.tensorflow.org/install/gpu.
 
 After installing CUDA, CUDNN, and TensorRT, paste the following text to your ~/.bashrc file: <br />
 `export PATH=/usr/local/cuda-10.1/bin:$PATH
-export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64
- `
- Tensorflow has this nice piece of code to check whether Tensorflow is using the GPU or not.  First, reboot your system and run the code below in your terminal: <br />
+export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64 `<br />
+
+Tensorflow has this nice piece of code to check whether Tensorflow is using the GPU or not.  First, reboot your system and run the code below in your terminal: <br />
+ 
 `tf.test.is_gpu_available(
     cuda_only=False, min_cuda_compute_capability=None
 ) `
