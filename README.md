@@ -22,8 +22,18 @@ Then, install the tools, libraries, and other packages: <br />
 
 
 ## Installing Cuda
-I've come across many tutorials for installing CUDA and CUDANN for Ubuntu 18.04.  The tutorial below has made it easy to install cuda and cudnn for GPU acceleration. <br />
-https://medium.com/@stephengregory_69986/installing-cuda-10-1-on-ubuntu-20-04-e562a5e724a0
+I've come across many tutorials for installing CUDA and CUDANN for Ubuntu 18.04.  The tutorial I followed for installing CUDA 10.1 is from Tensorflow, and their procedure for installing Cuda, CUDNN, and TensorRT is great. Here is the link: <br />
+https://www.tensorflow.org/install/gpu.
+
+After installing CUDA, CUDNN, and TensorRT, paste the following text to your ~/.bashrc file: <br />
+`export PATH=/usr/local/cuda-10.1/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64
+ `
+ Tensorflow has this nice piece of code to check whether Tensorflow is using the GPU or not.  First, reboot your system and run the code below in your terminal: <br />
+`tf.test.is_gpu_available(
+    cuda_only=False, min_cuda_compute_capability=None
+) `
+
 
 ## Installing Virtual Environment
 Python virtual environments are great for creating an isolated environment for Python projects.  If you have two separate Python projects that require the same Python library, but different versions, then creating an isolated environment would solve this issue without having to change the version in the system.  
