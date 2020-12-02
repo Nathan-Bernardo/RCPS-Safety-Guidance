@@ -1,3 +1,11 @@
+# Python Libraries
+stepup_path
+
+tempfile: This module creates temporary files and directories.
+
+pprint: Provides a capability to "pretty-print" arbitrary Python data structures in a form which can be used as input to the interpreter.  If the formatted structed include objects which are not fundamental Python types, the representation may not be loadabled.  This be the case if objects such as files, sockets or classes are included, as well as many otger objects which are not representable as Python literals.
+
+
 # Introduction
 
 Reinforcement learning algorithms have been used to discover policies that maximize reward.  They have been heavily used in robotics as a way to mimic the human brain such that the agent can learn to find the best possible set of actions based on the given state it is in.  However, the current reinforcement learning algorithms do not gurantee safety during the learning or execution phases.  For example, training an autonomous drone to avoid obstacles would possible involve the physical collision between the drone and the object in order to receive a negative reward for it's action.  We can already observe that such process could lead to damaging the onboard components, which is not sustainable and economically efficient for the researcher. In this project, I am using the robosuite simulator to integrate reinforcement learning algorithms with saftey gurantee.  I will also be providing resources for those interested in reinforcement learning and control theory, as well as papers related to this specific topic.
