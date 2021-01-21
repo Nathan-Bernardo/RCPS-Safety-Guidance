@@ -63,7 +63,7 @@ Then, source your ~/.bashrc: <br />
 ### Installing OpenAI
 `git clone https://github.com/openai/gym.git` <br />
 `cd gym` <br />
-`pip install -e .'
+`pip install -e .`
 
 ### Installing Mujoco
 
