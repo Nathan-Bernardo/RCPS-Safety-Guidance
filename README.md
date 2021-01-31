@@ -6,6 +6,14 @@ To help improve this situation, I am researching RL algorithms that gurantee saf
 
 Aside from my research goal, I will be sharing resources and paper notes that could possibly help students, hobbyists, and researcher develop a better understanding of Safe Reinforcement Learning.
 
+# Resources
+Lil'Log is a great resource for understanding RL.  The first article helped me comprehend with the key concepts and terminology in RL, and the common approaches taken to solving problems in RL. The second article summarizes the different policy gradient methods in RL, which is essential for my research. <br/>
+* [A (Long) Peek into Reinforcement Learning](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html) <br/>
+* [Policy Gradient Algorithms](https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html#reinforce)
+
+Another great resource is Spinning Up in Deep RL, which was developed by OpenAI. Provides an introduction to RL as well as other valuable resources such as key papers in RL.  OpenAI was nice enough to provide extra sources on getting the right background (e.g. math, deep learning, terminology), and how you can learn by doing. <br/>
+* [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/)
+
 
 # Getting Set Up
 ## Installing Ubuntu dependencies
@@ -122,6 +130,7 @@ Before running any project or demos with robosuite, you must export the text bel
 <details>
  <summary>2021-02</summary>
  
+ + [Trust Region Policy Optimization](https://arxiv.org/abs/1502.05477)
  + [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
  + [Safe Reinforcement Learning via Shielding](https://arxiv.org/abs/1708.08611)
  + [ART: Abstraction Refinement-Guided Training for Provably Correct Neural Networks](https://arxiv.org/abs/1907.10662)
