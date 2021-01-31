@@ -70,7 +70,11 @@ Then, source your ~/.bashrc: <br />
 `$ source ~/.bashrc`
 
 ## Installing Gym and Safety Gym
-### Installing mujoco_py
+Gym and Safety Gym both run under the MuJoCo physics engine, which helps facilitate research and development in robotics and other areas that require reachers to scale up computationally intensive techniques. <br>
+
+Website: [MuJoCo](http://www.mujoco.org/#:~:text=MuJoCo%20is%20a%20physics%20engine,not%20merely%20a%20better%20simulator.) <br/>
+Source: [mujoco-py](https://github.com/openai/mujoco-py)
+### Installing mujoco_py 
 ```
 $ git clone https://github.com/openai/mujoco-py.git
 $ cd mujoco-py
@@ -81,6 +85,8 @@ Before importing mujoco_py, make sure to past the text below to your ~/.bashrc f
 `export LD_LIBRARY_PATH=$HOME/.mujoco/mujoco200/bin`
 
 ### Installing Gym
+Source: [OpenAI Gym](https://github.com/openai/gym) <br/>
+Paper: [OpenAI Gym](https://arxiv.org/abs/1606.01540)
 ```
 $ git clone https://github.com/openai/gym.git
 $ cd gym
@@ -88,7 +94,7 @@ $ pip install -e .
 ```
 
 ### Installing Safety Gym
-
+Source: [Safety Gym](https://github.com/openai/safety-gym)
 ```
 $ git clone https://github.com/openai/safety-gym.git
 $ cd safety-gym
