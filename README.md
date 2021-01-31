@@ -69,16 +69,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 Then, source your ~/.bashrc: <br />
 `$ source ~/.bashrc`
 
-## Installing OpenAI and Robosuite 
-### Installing OpenAI
-```
-git clone https://github.com/openai/gym.git
-cd gym` <br />
-pip install -e .
-```
-
-### Installing Mujoco
-
+## Installing Gym and Safety Gym
 ### Installing mujoco_py
 ```
 $ git clone https://github.com/openai/mujoco-py.git
@@ -89,6 +80,22 @@ $ python3 setup.py install
 Before importing mujoco_py, make sure to past the text below to your ~/.bashrc file: <br />
 `export LD_LIBRARY_PATH=$HOME/.mujoco/mujoco200/bin`
 
+### Installing Gym
+```
+$ git clone https://github.com/openai/gym.git
+$ cd gym
+$ pip install -e .
+```
+
+### Installing Safety Gym
+
+```
+$ git clone https://github.com/openai/safety-gym.git
+$ cd safety-gym
+$ pip install -e .
+```
+
+## Other Simulators
 ### Installing robosuite from source
 To install robosuite, I folowed the documenation from the research grooup's docs.  It would be best to isntall from source.
 https://robosuite.ai/docs/installation.html
