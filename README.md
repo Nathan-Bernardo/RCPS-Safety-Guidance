@@ -130,6 +130,7 @@ Before running any project or demos with robosuite, you must export the text bel
 <details>
  <summary>2021-02</summary>
  
+ + [Revisiting Design Choices in Proximal Policy Optimization](https://arxiv.org/pdf/2009.10897.pdf)
  + [Benchmarking Safe Exploration in Deep Reinforcement Learning](https://cdn.openai.com/safexp-short.pdf)
  + [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://papers.nips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf)
  + [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/abs/1604.06778)
@@ -140,6 +141,7 @@ Before running any project or demos with robosuite, you must export the text bel
  + [ART: Abstraction Refinement-Guided Training for Provably Correct Neural Networks](https://arxiv.org/abs/1907.10662)
  + [Uncertainty-Aware Reinforcement Learning for Collision Avoidance](https://arxiv.org/abs/1702.01182)
  + [Safety-Guided Deep Reinforcement Learning via Online Gaussian Process Estimation](https://arxiv.org/abs/1903.02526)
+ + [Reinforcement Learning in Robotics: A Survey](https://www.ias.informatik.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
  
  </details>
 
