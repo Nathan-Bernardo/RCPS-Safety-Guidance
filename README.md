@@ -15,7 +15,7 @@ Another great resource is Spinning Up in Deep RL, which was developed by OpenAI.
 * [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/)
 
 <details>
- <summary>Terminology and Concepts</summary>
+ <summary>Concepts</summary>
  
  + [Entropy, Cross-Entropy, & KL-Divergence](https://www.youtube.com/watch?v=ErfnhcEV1O8)
  
