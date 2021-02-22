@@ -25,7 +25,7 @@ Another great resource is Spinning Up in Deep RL, which was developed by OpenAI.
  <details>
  <summary>Online Journal and Research Databases</summary>
  
- + [arxiv sanity preserver](http://www.arxiv-sanity.com/)[[Github](https://github.com/karpathy/arxiv-sanity-preserver)]
+ + [arxiv sanity preserver](http://www.arxiv-sanity.com/) [[Github](https://github.com/karpathy/arxiv-sanity-preserver)] - Developed by Andrej Karpathy.  A web interface that allows researchers to keep track of relevant papers and store papers in their own personal library.  
  
  </details>
 
