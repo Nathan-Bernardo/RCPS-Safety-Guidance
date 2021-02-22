@@ -21,6 +21,13 @@ Another great resource is Spinning Up in Deep RL, which was developed by OpenAI.
  + [Loss Functions and Optimization by Stanford](https://www.youtube.com/watch?v=h7iBpEHGVNc)
  
  </details>
+ 
+ <details>
+ <summary>Online Journal and Research Databases</summary>
+ 
+ + [arxiv sanity preserver](http://www.arxiv-sanity.com/)[[Github](https://github.com/karpathy/arxiv-sanity-preserver)]
+ 
+ </details>
 
 # Getting Set Up
 ## Installing Ubuntu dependencies
