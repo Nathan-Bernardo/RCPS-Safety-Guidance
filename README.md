@@ -14,6 +14,7 @@ Lil'Log is a great resource for understanding RL.  The first article helped me c
 Another great resource is Spinning Up in Deep RL, which was developed by OpenAI. Provides an introduction to RL as well as other valuable resources such as key papers in RL.  OpenAI was nice enough to provide extra sources on getting the right background (e.g. math, deep learning, terminology), and how you can learn by doing. <br/>
 * [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/)
 
+**Other Resources** <br>
 <details>
  <summary>Concepts on Loss Functions and Entropy</summary>
  
