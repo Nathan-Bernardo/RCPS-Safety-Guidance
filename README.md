@@ -143,6 +143,7 @@ Before running any project or demos with robosuite, you must export the text bel
 # Paper Notes
 <details>
  <summary>2021-02</summary>
+ 
  + [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)[[Notes](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/ppo_algorithms.md)]
  + [Revisiting Design Choices in Proximal Policy Optimization](https://arxiv.org/pdf/2009.10897.pdf)
  + [Benchmarking Safe Exploration in Deep Reinforcement Learning](https://cdn.openai.com/safexp-short.pdf)
