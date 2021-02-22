@@ -143,14 +143,13 @@ Before running any project or demos with robosuite, you must export the text bel
 # Paper Notes
 <details>
  <summary>2021-02</summary>
- 
+ + [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)[[Notes](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/ppo_algorithms.md)]
  + [Revisiting Design Choices in Proximal Policy Optimization](https://arxiv.org/pdf/2009.10897.pdf)
  + [Benchmarking Safe Exploration in Deep Reinforcement Learning](https://cdn.openai.com/safexp-short.pdf)
  + [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://papers.nips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf)
  + [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/abs/1604.06778)
  + [High-Dimensional Continuous Control Using Generalized Advantage Estimation](https://arxiv.org/abs/1506.02438)
  + [Trust Region Policy Optimization](https://arxiv.org/abs/1502.05477)
- + [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)[[Notes](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/ppo_algorithms.md)
  + [Safe Reinforcement Learning via Shielding](https://arxiv.org/abs/1708.08611)
  + [ART: Abstraction Refinement-Guided Training for Provably Correct Neural Networks](https://arxiv.org/abs/1907.10662)
  + [Uncertainty-Aware Reinforcement Learning for Collision Avoidance](https://arxiv.org/abs/1702.01182)
