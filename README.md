@@ -15,7 +15,7 @@ Another great resource is Spinning Up in Deep RL, which was developed by OpenAI.
 * [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/)
 
 <details>
- <summary>Concepts</summary>
+ <summary>Concepts on Loss Functions and Entropy</summary>
  
  + [Entropy, Cross-Entropy, & KL-Divergence](https://www.youtube.com/watch?v=ErfnhcEV1O8)
  + [Loss Functions and Optimization by Stanford](https://www.youtube.com/watch?v=h7iBpEHGVNc)
