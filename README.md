@@ -146,6 +146,7 @@ Before running any project or demos with robosuite, you must export the text bel
  <summary>2021-02</summary>
  
  + [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)[[Notes](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/ppo_algorithms.md)]
+ + [ADAM: A METHOD FOR STOCHASTIC OPTIMIZATION](https://arxiv.org/pdf/1412.6980.pdf)
  + [Revisiting Design Choices in Proximal Policy Optimization](https://arxiv.org/pdf/2009.10897.pdf)
  + [Benchmarking Safe Exploration in Deep Reinforcement Learning](https://cdn.openai.com/safexp-short.pdf)
  + [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://papers.nips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf)
