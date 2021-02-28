@@ -16,6 +16,20 @@ Another great resource is Spinning Up in Deep RL, which was developed by OpenAI.
 
 **Other Resources** <br>
 <details>
+ <summary>Books</summary>
+ 
+ + [Deep Learning Book by Goodfellow](https://www.deeplearningbook.org/)
+ + [Reinforcement Learning: An Introduction by Sutton and Barto](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+ </details>
+ 
+ details>
+ <summary>Sources on Policy Gradient methods</summary>
+ 
+ + [Policy Gradient Algorithms](https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html)
+ + [An Intuitive Explanation of Policy Gradient](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c)
+ </details>
+
+<details>
  <summary>Concepts on Loss Functions and Entropy</summary>
  
  + [Entropy, Cross-Entropy, & KL-Divergence](https://www.youtube.com/watch?v=ErfnhcEV1O8)
