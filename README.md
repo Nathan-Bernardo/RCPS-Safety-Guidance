@@ -22,7 +22,7 @@ Another great resource is Spinning Up in Deep RL, which was developed by OpenAI.
  + [Reinforcement Learning: An Introduction by Sutton and Barto](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
  </details>
  
- details>
+ <details>
  <summary>Sources on Policy Gradient methods</summary>
  
  + [Policy Gradient Algorithms](https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html)
