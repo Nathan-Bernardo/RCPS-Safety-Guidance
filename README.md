@@ -35,8 +35,10 @@ To understand how simulators work in general, Tucker Mclure provides a great exp
  </details>
  
 <details>
- <summary></summary>
-<details>l
+ <summary>Deep Learning</summary>
+ 
+ + [Backpropagation calculus by 3Blue1Brown](https://www.youtube.com/watch?v=tIeHLnjs5U8)
+<details>
 
 <details>
  <summary>Concepts on Loss Functions and Entropy</summary>
