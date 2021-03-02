@@ -14,13 +14,18 @@ Lil'Log is a great resource for understanding RL.  The first article helped me c
 Another great resource is Spinning Up in Deep RL, which was developed by OpenAI. Provides an introduction to RL as well as other valuable resources such as key papers in RL.  OpenAI was nice enough to provide extra sources on getting the right background (e.g. math, deep learning, terminology), and how you can learn by doing. <br/>
 * [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/)
 
+To understand how simulators work in general, Tucker Mclure provides a great explanation on simulators and how we can develop quality simulations.
+* [http://www.anuncommonlab.com/articles/how-simulations-work/](http://www.anuncommonlab.com/articles/how-simulations-work/)
+
 **Other Resources** <br>
 <details>
  <summary>Books</summary>
  
  + [Deep Learning Book by Goodfellow](https://www.deeplearningbook.org/)
  + [Reinforcement Learning: An Introduction by Sutton and Barto](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+ + [Optimizin Expectations: From Deep Reinforcement Learning to Stochastic Computation Graphs by Schulman](http://joschu.net/docs/thesis.pdf) 
  </details>
+
  
  <details>
  <summary>Sources on Policy Gradient methods</summary>
