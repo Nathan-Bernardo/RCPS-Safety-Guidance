@@ -15,7 +15,7 @@ Another great resource is Spinning Up in Deep RL, which was developed by OpenAI.
 * [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/)
 
 To understand how simulators work in general, Tucker Mclure provides a great explanation on simulators and how we can develop quality simulations.
-* [http://www.anuncommonlab.com/articles/how-simulations-work/](http://www.anuncommonlab.com/articles/how-simulations-work/)
+* [How Simulations Work](http://www.anuncommonlab.com/articles/how-simulations-work/)
 
 **Other Resources** <br>
 <details>
