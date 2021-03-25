@@ -17,6 +17,5 @@
   - Contains 5 constrained elements.
   - ![alt text](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/images/Selection_022.png)
   
-  [Contribution guidelines for this project](docs/CONTRIBUTING.md)
   
   
