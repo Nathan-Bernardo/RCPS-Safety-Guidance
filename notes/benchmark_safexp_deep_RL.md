@@ -16,6 +16,13 @@
   - ![alt text](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/images/Selection_016.png)
   - Contains 5 constrained elements.
   - ![alt text](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/images/Selection_022.png)
+
+* How
+  - Using the standard GYM API for RL environments provide in the Safety Gym environment to generate random actions, make environments, and etc..
+  - Environments are instantiated using the OpenAI Gym *make* function.
+  - ![alt text](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/images/Selection_021.png)
+  - The full set of environments:
+  - ![alt text](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/images/Selection_021.png)
   
   
   
