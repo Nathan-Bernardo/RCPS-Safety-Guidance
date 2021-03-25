@@ -24,7 +24,7 @@
   - ![alt text](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/images/Selection_021.png)
   - The full set of environments:
   - ![alt text](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/images/Selection_020.png)
-  - For experimentation, the metrics taken into account where:
+  - For experimentation, the metrics taken into account for measuring safety performance of an agent during training are:
   - ![alt text](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/images/metrics_constrainedRL.png)
 
 * Results 
