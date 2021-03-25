@@ -161,7 +161,7 @@ Before running any project or demos with robosuite, you must export the text bel
 <details>
  <summary>2021-03</summary>
  
- + [Benchmarking Safe Exploration in Deep Reinforcement Learning](https://cdn.openai.com/safexp-short.pdf)[Notes](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/benchmark_safexp_deep_RL.md)
+ + [Benchmarking Safe Exploration in Deep Reinforcement Learning](https://cdn.openai.com/safexp-short.pdf)[[Notes](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/benchmark_safexp_deep_RL.md)]
 </details>
 
 <details>
