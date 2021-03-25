@@ -13,6 +13,9 @@ their drawbacks.  An actor decides which action to take while the critic tells t
   - A fully connected multi-percepton layer (MLP) with two hidden layers of 64 units, and tanh nonlinearities, are used to represent the policy. (pg. 5)
 * Tested on 7 simulated robotic tasks implemented in OpenAI Gym.
   - Regarding the continous domain on different Mujoco environments, PPO outperforms both the A2C, A2C with Trust Region, and A3C.
+**Results** <br>
+* ![alt text](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/images/Selection_023.png)
+* ![alt text](https://github.com/Nathan-Bernardo/RCPS-Safety-Guidance/blob/master/notes/images/Selection_024.png)
 
 **Technical Details** <br>
 * The paper implements an ibjective function that uses clipping, which clips the probability ratio.  This removes the motivation for moving the probability ratio outside of the interval [1 - eps, 1 + eps]. (pg. 3)
