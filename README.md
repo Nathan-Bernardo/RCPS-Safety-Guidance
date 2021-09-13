@@ -82,16 +82,18 @@ $ sudo apt-get install python3-dev python3-tk python-imaging-tk
 I've come across many tutorials for installing CUDA and CUDANN for Ubuntu 18.04.  The tutorial I followed for installing CUDA 10.1 is from Tensorflow, and their procedure for installing Cuda, CUDNN, and TensorRT is great. Here is the link: <br />
 https://www.tensorflow.org/install/gpu.
 
+For Ubuntu 20.04, I simply installed CUDA Toolkit through their documentation. [CUDA Toolkit 11.0 Download](https://developer.nvidia.com/cuda-11.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=deblocal)
+
 After installing CUDA, CUDNN, and TensorRT, paste the following text to your ~/.bashrc file: <br />
 ```
-export PATH=/usr/local/cuda-10.1/bin:$PATH
-export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64 
+export PATH=/usr/local/cuda-<VERSION>/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-<VERSION>/lib64 
 ```
 
-Tensorflow has this nice piece of code to check whether Tensorflow is using the GPU or not.  First, reboot your system and run the code below in your terminal: <br />
+Replace <VERSION> with the CUDA version you installed. For me, it would be 11.0. Tensorflow has this nice piece of code to check whether Tensorflow is using the GPU or not.  First, reboot your system and run the code below in your terminal: <br />
  
 ```
-tf.test.is_gpu_available(cuda_only=False, min_cuda_compute_capability=None)
+tf.config.list_physical_devices('GPU')
 ```
 
 
@@ -124,7 +126,7 @@ Then, source your ~/.bashrc: <br />
 `$ source ~/.bashrc`
 
 ## Installing Safety Gym
-Safety Gym both run under the MuJoCo physics engine, which helps facilitate research and development in robotics and other areas that require reachers to scale up computationally intensive techniques. <br>
+Safety Gym both run under the MuJoCo physics engine, which helps facilitate research and development in robotics and other areas that require reachers to scale up computationally intensive techniques. However, MuJoCo is not free. They only provided a 30-day free trial, or a 1-year free trial if your are a college student.  OpenAI recently passed on Gym to a new maintainer. The maintainer is planneing to substitute MuJoCo with PyBullet.  See this [post](https://github.com/openai/gym/issues/2259) for more information. <br>
 
 Website: [MuJoCo](http://www.mujoco.org/#:~:text=MuJoCo%20is%20a%20physics%20engine,not%20merely%20a%20better%20simulator.) <br/>
 Source: [mujoco-py](https://github.com/openai/mujoco-py)
@@ -148,7 +150,7 @@ $ pip install -e .
 
 ## Other Simulators
 ### Installing robosuite from source
-To install robosuite, I folowed the documenation from the research grooup's docs.  It would be best to isntall from source.
+To install robosuite, I folowed the documenation from the research grooup's docs.  It would be best to install from source.
 https://robosuite.ai/docs/installation.html
 
 When you run a demo or project with robosuite, you will get the following error: <br />
