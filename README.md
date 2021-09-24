@@ -149,8 +149,16 @@ $ pip install -e .
 ```
 
 ## Other Simulators
+###CoppeliaSim
+ [Website](https://www.coppeliarobotics.com/)
+To install CoppeliaSim, downloaded the software from this [source](https://www.coppeliarobotics.com/downloads) and extract the files to your desired folder. Find the folder containing CoppeliaSim and run the .sh file. In Linux:
+ ```
+ cd <path/to/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04>
+ ./coppeliaSim.sh
+ ```
+ 
 ### Installing robosuite from source
-To install robosuite, I folowed the documenation from the research grooup's docs.  It would be best to install from source.
+To install robosuite, I folowed the documenation from the research group's docs.  It would be best to install from source.
 https://robosuite.ai/docs/installation.html
 
 When you run a demo or project with robosuite, you will get the following error: <br />
@@ -158,6 +166,8 @@ When you run a demo or project with robosuite, you will get the following error:
 
 Before running any project or demos with robosuite, you must export the text below to your ~/.bashrc file: <br />
 `export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so`
+ 
+
 
 # Paper Notes
 <details>
