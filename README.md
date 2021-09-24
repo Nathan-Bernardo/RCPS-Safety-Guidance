@@ -149,7 +149,7 @@ $ pip install -e .
 ```
 
 ## Other Simulators
-###CoppeliaSim
+### CoppeliaSim
  [Website](https://www.coppeliarobotics.com/)
 To install CoppeliaSim, downloaded the software from this [source](https://www.coppeliarobotics.com/downloads) and extract the files to your desired folder. Find the folder containing CoppeliaSim and run the .sh file. In Linux:
  ```
