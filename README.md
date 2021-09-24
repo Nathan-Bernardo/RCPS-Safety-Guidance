@@ -153,8 +153,8 @@ $ pip install -e .
  [Website](https://www.coppeliarobotics.com/)
 To install CoppeliaSim, downloaded the software from this [source](https://www.coppeliarobotics.com/downloads) and extract the files to your desired folder. Find the folder containing CoppeliaSim and run the .sh file. In Linux:
  ```
- cd <path/to/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04>
- ./coppeliaSim.sh
+ $ cd <path/to/CoppeliaSim_Edu_V4_2_0_Ubuntu20_04>
+ $ ./coppeliaSim.sh
  ```
  
 ### Installing robosuite from source
