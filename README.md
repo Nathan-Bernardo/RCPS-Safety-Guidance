@@ -79,12 +79,16 @@ $ sudo apt-get install python3-dev python3-tk python-imaging-tk
 ```
 
 ## Installing Cuda
-I've come across many tutorials for installing CUDA and CUDANN for Ubuntu 18.04.  The tutorial I followed for installing CUDA 10.1 is from Tensorflow, and their procedure for installing Cuda, CUDNN, and TensorRT is great. Here is the link: <br />
-https://www.tensorflow.org/install/gpu.
+I've come across many tutorials for installing CUDA and CUDANN for Ubuntu 18.04.  The tutorial I followed for installing CUDA 10.1 is from Tensorflow, and their procedure for installing Cuda, CUDNN, and TensorRT is great. Here is the link: https://www.tensorflow.org/install/gpu.
 
-For Ubuntu 20.04, I simply installed CUDA Toolkit through their documentation. [CUDA Toolkit 11.0 Download](https://developer.nvidia.com/cuda-11.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=deblocal)
+For Ubuntu 20.04, I simply installed CUDA Toolkit through their documentation. [CUDA Toolkit 11.4 Download](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local). I installed CUDA Toolkit through deb(local).  Make sure to install cuDNN runtime and developer library.  You can download the libraries through here (download them in your Downloads folder): https://developer.nvidia.com/rdp/cudnn-download. 
+```
+$ cd <path/to/Downloads>
+$ sudo dpkg -i libcudnn8_x.x.x-1+cudax.x_amd64.deb // Installs the runtime library. x.x.x is the version
+$ sudo dpkg -i libcudnn8-dev_8.x.x.x-1+cudax.x_amd64.deb // Installs the developer library. x.x.x is the version
+```
 
-After installing CUDA, CUDNN, and TensorRT, paste the following text to your ~/.bashrc file: <br />
+After installing CUDA and cudaNN, paste the following text to your ~/.bashrc file: <br />
 ```
 export PATH=/usr/local/cuda-<VERSION>/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-<VERSION>/lib64 
