@@ -130,10 +130,10 @@ Then, source your ~/.bashrc: <br />
 `$ source ~/.bashrc`
 
 ## Installing Safety Gym
-Safety Gym both run under the MuJoCo physics engine, which helps facilitate research and development in robotics and other areas that require reachers to scale up computationally intensive techniques. However, MuJoCo is not free. They only provided a 30-day free trial, or a 1-year free trial if your are a college student.  OpenAI recently passed on Gym to a new maintainer. The maintainer is planneing to substitute MuJoCo with PyBullet.  See this [post](https://github.com/openai/gym/issues/2259) for more information. <br>
+Safety Gym both run under the MuJoCo physics engine, which helps facilitate research and development in robotics and other areas that require reachers to scale up computationally intensive techniques. MuJoCo is free (woot woot).  OpenAI recently passed on Gym to a new maintainer. The maintainer is planneing to substitute MuJoCo with PyBullet. See this [post](https://github.com/openai/gym/issues/2259) for more information. <br>
 
-Website: [MuJoCo](http://www.mujoco.org/#:~:text=MuJoCo%20is%20a%20physics%20engine,not%20merely%20a%20better%20simulator.) <br/>
-Source: [mujoco-py](https://github.com/openai/mujoco-py)
+Website: [MuJoCo](https://mujoco.org/) <br/>
+Source: [mujoco-py](https://github.com/deepmind/mujoco)
 ### Installing mujoco_py 
 ```
 $ git clone https://github.com/openai/mujoco-py.git
